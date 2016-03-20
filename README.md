@@ -1,5 +1,7 @@
-# osia-babel
+# Osia Babel
 > Osia plugin for Babel
+
+An [Osia][osia] plugin for [Babel][babel]
 
 ## Installation
 ```shell
@@ -26,4 +28,6 @@ osia.task('build:javascript' () =>
 
   [avatar]: https://avatars.githubusercontent.com/u/6251703?v=3&s=125
   [github]: https://github.com/jamen
+  [osia]: https://github.com/jamen/osia
+  [babel]: http://babeljs.io/
   [babel-options]: http://babeljs.io/docs/usage/options/
