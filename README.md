@@ -1,14 +1,7 @@
-# Osia Babel
+# osia-babel
 > Osia plugin for Babel
 
-An [Osia][osia] plugin for [Babel][babel]
-
-## Installation
-```shell
-$ npm install --save-dev osia-babel
-```
-
-## `babel(options = {})`
+An [Osia][osia] plugin for using [Babel][babel] to transpile ES6 to ES5:
 ```javascript
 const osia = require('osia');
 const babel = require('osia-babel');
@@ -19,7 +12,17 @@ osia.task('build:javascript' () =>
     .then(osia.save('lib'))
 );
 ```
- - `options` (Object): Any of [Babel's options][babel-options]
+
+## Installation
+```shell
+$ npm install --save-dev osia-babel
+```
+
+## API
+
+### `babel(options)`
+The plugin to use Babel in Osia.
+ - `options` (`Object`): Any of [Babel's options][babel-options]
 
 ## Credits
 | ![jamen][avatar] |
