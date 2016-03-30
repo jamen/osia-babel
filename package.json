@@ -29,7 +29,8 @@
     "vinyl": "^1.1.1"
   },
   "dependencies": {
-    "babel-core": "^6.7.2"
+    "babel-core": "^6.7.2",
+    "osia-plugin": "^1.0.0"
   },
   "peerDependencies": {
     "osia": "*"
